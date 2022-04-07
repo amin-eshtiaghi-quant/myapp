@@ -1,0 +1,186 @@
+{
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email address",
+  "password": "Password",
+  "verificationCode": "Verification Code",
+  "confirmPassword": "Confirm Password",
+  "currentPassword": "Current Password",
+  "rules": {
+    "password": {
+      "title": "Your password must contain at least:",
+      "first": "1 uppercase letter",
+      "second": "1 special character",
+      "third": "6+ characters"
+    }
+  },
+  "backToWebsite": "Back to Website",
+  "backToLogin": "Back to Login",
+  "login": "Log in",
+  "resend": "Resend",
+  "activationCode": "Activation Code",
+  "placeholder": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "email@address.com",
+    "password": "6+ characters",
+    "confirmPassword": "6+ characters",
+    "activationCode": "6 digits code"
+  },
+  "alerts": {
+    "incorrectUsernameOrPassword": "Email address or password invalid.",
+    "passwordAttemptsExceeded": "Password attempts exceeded.",
+    "userAlreadyExists": "User already exists.",
+    "invalidVerificationCodeProvidedPleaseTryAgain": "Invalid verification code provided, please try again.",
+    "attemptLimitExceededPleaseTryAfterSomeTime": "Attempt limit exceeded, please try later.",
+    "inviteUserFailed": "Invite user failed",
+    "emailHasBeenSent": "Email resent successfully."
+  },
+  "register": {
+    "title": "Set up an account",
+    "description": "Fill in the information bellow to receive an activation link in your email",
+    "terms": {
+      "text": "I have read, understood and agree to the",
+      "link": "Terms & Condition"
+    },
+    "promotion": "Please send me promotional emails about QuantConnect and Quant Services",
+    "button": "Register",
+    "account": {
+      "text": "Already have an account?",
+      "link": "Log in"
+    }
+  },
+  "registerConfirmation": {
+    "pageActivation": {
+      "title": "An activation link is on its way!",
+      "description": "Please check {0} and click on the activation link to finalise the account set-up. The activation link is valid for the next 24 hours. Make sure to check the Spam folder as well.",
+      "resendEmail": {
+        "text": "Didn't receive an email?",
+        "link": "Resend email"
+      }
+    },
+    "pageActivated": {
+      "title": "Account activated",
+      "description": "Your account has been activated. You can now access Quant Connect by logging in."
+    },
+    "pageAlreadyActivated": {
+      "title": "Link already activated",
+      "description": "This link has already been activated. To access Quant products, please login to your account."
+    },
+    "pageExpired": {
+      "title": "Link expired",
+      "description": "The link you are trying to use has expired. If you need a new one, use the resend button."
+    }
+  },
+  "resetPassword": {
+    "title": "Create new password",
+    "button": "Confirm new password"
+  },
+  "resetPasswordConfirmation": {
+    "title": "Password updated succesfully",
+    "description": "Your password has been changed succesfully. You can now access Quant Connect by logging in with your new credentials."
+  },
+  "validation": {
+    "required": "Please enter {0}",
+    "format": "Please enter a valid email address e.g. example@example.com",
+    "long": "Character limit exceeded",
+    "short": "Your password must be a minimum of {0} letters",
+    "confirmCode": "{0} must contain 6 digits",
+    "contains": "Your {0} must contain {1} {2} letter",
+    "check": "Please confirm the {0}",
+    "match": "Please make sure your passwords match",
+    "recaptcha": "Please tick recaptcha checkbox",
+    "mustSomeDigits": "Please enter your {0} digit activation code"
+  },
+  "responses": {
+    "errors": {
+      "somethingWentWrong": "Oops! something went wrong!"
+    }
+  },
+  "forgetPassword": {
+    "form": {
+      "title": "Reset your password",
+      "description": "Fear not. We'll email you instructions to reset your password.",
+      "buttons": {
+        "reset": "Reset Password",
+        "back": "Back to log in"
+      }
+    },
+    "reset": {
+      "title": "Create new password",
+      "description": "An activation code has been sent to <b>{0}</b> Please make sure you check your spam folder as well. The code is valid for <b>24 hours</b>.",
+      "resendQuestion": "Didn’t receive an email?",
+      "resend": "Resend email",
+      "or": "or",
+      "editMail": "Re-type your email"
+    },
+    "sent": {
+      "title": "Email has been sent",
+      "description": "Introduction on how to reset your password have been sent to your inbox. Please make sure you check your spam folder as well.",
+      "notation": {
+        "first": "Link is valid for ",
+        "bold": "24 hours."
+      },
+      "buttons": {
+        "back": "Back to website"
+      }
+    }
+  },
+  "userManagement": {
+    "alert": {
+      "active": "These are users that have an active account.",
+      "pending": "These are users that didn't activate their account yet. Pending users are automatically removed after 90 days.",
+      "removed": "These are users that have been removed from the active users list of Quant Connect, or pending requests that expired."
+    },
+    "emptyList": {
+      "active": {
+        "title": "No active users yet",
+        "text": "This list will be populated as users activate their account. You can start by adding a Quant Connect Admin."
+      },
+      "pending": {
+        "title": "No pending users",
+        "text": "This list of users will show those who have an account created, but who have not yet activated it via their email link."
+      },
+      "removed": {
+        "title": "No removed users",
+        "text": "Any removed users will appear here."
+      },
+      "noFound": {
+        "title": "No users found",
+        "text": ""
+      }
+    },
+    "actions": {
+      "remove": {
+        "title": "Remove user?",
+        "button": "Yes, Remove"
+      },
+      "edit": {
+        "title": "Edit user details"
+      }
+    }
+  },
+  "kyc": {
+    "verification": {
+      "h1": "ID verification",
+      "alert": {
+        "title": "Important:",
+        "text": "You will need to make sure that your First name and Last name registered on your profile exactly matches the First name and the Last name on your chosen identity document. Your identity check will fail if the First name and Last name don’t corespond to your ID."
+      },
+      "beforeStart": "Before we start, please make sure you have the following in hand:",
+      "documentList": {
+        "title": "One of the following:",
+        "passport": "Passport",
+        "driverLicence": "Drivers License",
+        "idCard": "National ID Card",
+        "residentCard": "Resident Permit Card"
+      },
+      "mobileDevice": "A mobile-device capable of taking photos",
+      "terms": {
+        "textLeft": "I have read, understood and accept the ",
+        "link": "Terms & Condition",
+        "textRight": " for Onfido"
+      }
+    }
+  }
+}
