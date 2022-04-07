@@ -1,6 +1,6 @@
 {
-  "name": "@myapp/newsfeed",
-  "version": "0.0.4",
+  "name": "test-newsfeed",
+  "version": "1.0.0",
   "description": "Shows newsfeed for a user",
   "keywords": [
     "newsfeed"
