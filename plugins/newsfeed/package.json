@@ -5,7 +5,7 @@
   "keywords": [
     "newsfeed"
   ],
-  "author": "amin <eshtiaghi.amin@gmail.com>",
+  "author": "amin <amin.eshtiaghi@quant.network>",
   "homepage": "http://index.js",
   "license": "ISC",
   "main": "index.js",
@@ -23,5 +23,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "4197de375335715fdf03a1a50a4157c7101ab517"
+  "gitHead": "6d7f04de919f9213aefe92a9cf948014fc081b58"
 }
