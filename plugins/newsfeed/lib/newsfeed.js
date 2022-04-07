@@ -3,5 +3,5 @@
 module.exports = newsfeed;
 
 function newsfeed() {
-    console.log("Hello from Newsfeed component!")
+    console.log("Hello from Newsfeed component!!!")
 }
